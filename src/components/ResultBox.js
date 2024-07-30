@@ -7,6 +7,9 @@ const PlayAgain = () => {
   const router = useRouter();
 
   const handleClick = () => {
+    for (let i = 1; i <= 10; i++) {
+      localStorage.removeItem(`question${i}`);
+    }
     router.push("/");
   };
 
