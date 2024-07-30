@@ -5,7 +5,7 @@ export default function Index() {
     <main className={styles.main}>
       <div className={styles.grid}>
         <a
-          href="/icc/question/1"
+          href="./question/1"
           className={styles.card}
         >
           <h2>
