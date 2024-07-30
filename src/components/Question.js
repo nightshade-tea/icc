@@ -1,20 +1,33 @@
 'use client'
-import React, { useState } from 'react';
+import { useRouter } from "next/navigation";
+import React, { useState } from "react";
+import questionData from "@/data/questionData.js";
 import styles from '@/styles/question.module.css';
 
-export default function Question({ question, options, onAnswer }) {
+export default function Question({ id }) {
   const [selectedOption, setSelectedOption] = useState(null);
+  const router = useRouter();
+  const question = questionData[id-1].question;
+  const options = questionData[id-1].options;
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
   };
 
-  const handleSubmit = () => {
-    onAnswer(selectedOption);
-  };
-
   const handleDivClick = (option) => {
     setSelectedOption(option);
+  };
+
+  const handleSubmit = () => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(`question${id}`, selectedOption);
+
+      if (id === 10) {
+        router.push(`/results`);
+      } else {
+        router.push(`/question/${id + 1}`);
+      }
+    }
   };
 
   return (
