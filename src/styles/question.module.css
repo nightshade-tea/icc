@@ -1,0 +1,63 @@
+.question {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0.05);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+}
+
+.question h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.radio {
+  padding: 1rem 1.2rem;
+  margin: 0.3rem 0;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.radio:hover {
+  background: rgba(var(--card-rgb), 0.1);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+}
+
+.radio input {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.radio.checked {
+  background: rgba(1, 133, 235, 0.1);
+  border: 1px solid rgba(0, 0, 255, 0.15);
+}
+
+.submit {
+  padding: 0.6rem 1.5rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 200ms, border 200ms;
+}
+
+.submit:hover {
+  background: rgba(var(--card-rgb), 0.4);
+  border: 1px solid rgba(var(--card-border-rgb), 0.3);
+}
+
+.submit:active {
+  background: rgba(var(--card-rgb), 0.8);
+  border: 1px solid rgba(var(--card-border-rgb), 0.1);
+}
+
+.submit:disabled {
+  background: rgba(var(--card-rgb), 0.4);
+  border: 1px solid rgba(var(--card-border-rgb), 0.1);
+  cursor: not-allowed;
+}
