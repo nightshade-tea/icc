@@ -1,14 +1,12 @@
 import styles from "@/styles/index.module.css";
 
-export default function Home() {
+export default function Index() {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
         <a
-          href=""
+          href="/question/1"
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2>
             Iniciar quiz <span>-&gt;</span>
