@@ -1,10 +1,14 @@
+@viewport {
+  width: device-width;
+  initial-scale: 1; 
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 3rem);
-  margin-top: 3rem;
+  min-height: 100vh;
   overflow-y: auto;
 }
 
@@ -13,7 +17,7 @@
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
-  max-width: var(--max-width);
+  max-width: 100%;
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
@@ -54,6 +58,7 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  box-sizing: border-box;
 }
 
 .card span {

@@ -5,6 +5,7 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0.05);
   border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  box-sizing: border-box;
 }
 
 .question h2 {
