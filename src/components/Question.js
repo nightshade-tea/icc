@@ -1,7 +1,7 @@
 'use client'
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
-import questionData from "@/data/questionData.js";
+import { questionData } from "@/data/questions";
 import styles from '@/styles/question.module.css';
 
 export default function Question({ id }) {
