@@ -1,6 +1,6 @@
 @viewport {
   width: device-width;
-  initial-scale: 1; 
+  initial-scale: 1;
 }
 
 .main {
@@ -50,6 +50,7 @@
   align-items: center;
   max-width: 100%;
   width: var(--max-width);
+  z-index: 10;
 }
 
 .card {
@@ -100,6 +101,7 @@
   background: var(--primary-glow);
   width: 240px;
   height: 180px;
+  margin-left: -120px;
   z-index: -1;
 }
 

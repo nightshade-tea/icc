@@ -1,13 +1,13 @@
-import ResultBox from "@/components/ResultBox";
-import styles from "@/styles/index.module.css";
+import Results from "@/components/Results";
+import styles from "@/styles/page.module.css";
 
-export default function Results() {
+export default function ResultsPage() {
 
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        <ResultBox/>
+        <Results />
       </div>
     </main>
- );
+  );
 }

@@ -7,8 +7,8 @@ import styles from '@/styles/question.module.css';
 export default function Question({ id }) {
   const [selectedOption, setSelectedOption] = useState(null);
   const router = useRouter();
-  const question = questionData[id-1].question;
-  const options = questionData[id-1].options;
+  const question = questionData[id - 1].question;
+  const options = questionData[id - 1].options;
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);

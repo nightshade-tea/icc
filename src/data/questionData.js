@@ -10,7 +10,7 @@ const questionData = [
         "Ir à missa"
       ]
   },
-  { 
+  {
     question: "Se fosse para você escolher uma segunda faculdade, qual seria?",
     options:
       [
@@ -21,7 +21,7 @@ const questionData = [
         "Teologia"
       ]
   },
-  { 
+  {
     question: "Qual área da computação mais te interessa?",
     options:
       [
@@ -32,7 +32,7 @@ const questionData = [
         "Codificação"
       ]
   },
-  { 
+  {
     question: "Qual desses projetos você participaria?",
     options:
       [
@@ -43,7 +43,7 @@ const questionData = [
         "Desenvolvimento de uma nova linguagem de programação que traduz os códigos dos computadores de maneira mais direta e tem como propósito ampliar a programação de computadores em campos não matemáticos e científicos, o que permitiria que qualquer pessoa pudesse aprender a linguagem, tornando-a mais acessível"
       ]
   },
-  { 
+  {
     question: "Qual dessas causas você mais se relaciona?",
     options:
       [
@@ -54,7 +54,7 @@ const questionData = [
         "O computador pode auxiliar na democratização da informação para a educação de qualidade"
       ]
   },
-  
+
   {
     question: "Qual dessas frases seria mais provável você dizer em uma roda de amigos?",
     options:
@@ -66,7 +66,7 @@ const questionData = [
         "\“É óbvio que a informação é inútil se ninguém tiver acesso a ela.\ˮ"
       ]
   },
-  { 
+  {
     question: "",
     options:
       [
@@ -77,7 +77,7 @@ const questionData = [
         ""
       ]
   },
-  { 
+  {
     question: "",
     options:
       [
@@ -88,7 +88,7 @@ const questionData = [
         ""
       ]
   },
-  { 
+  {
     question: "",
     options:
       [
@@ -99,7 +99,7 @@ const questionData = [
         ""
       ]
   },
-  { 
+  {
     question: "",
     options:
       [
@@ -111,5 +111,5 @@ const questionData = [
       ]
   }
 ];
-  
-  export default questionData;
+
+export default questionData;
