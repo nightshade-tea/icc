@@ -25,11 +25,8 @@ function getAnswers() {
   const storedAnswers = [];
 
   for (let i = 1; i <= 10; i++) {
-    const optionId = parseInt(localStorage.getItem(`question${i}`));
-
-    if (!isNaN(optionId)) {
-      storedAnswers.push(parseInt(optionId));
-    }
+    const optionId = localStorage.getItem(`question${i}`);
+    storedAnswers.push(optionId);
   }
 
   return storedAnswers;
@@ -37,12 +34,12 @@ function getAnswers() {
 
 function computeResults(answers) {
   const count = {
-    "0": 0,
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 1
+    "ada": 0,
+    "annie": 0,
+    "brenda": 0,
+    "grace": 0,
+    "mary": 0,
+    "stallman": 1
   };
 
   answers.forEach((answer) => {
