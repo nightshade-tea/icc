@@ -2,24 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import styles from "@/styles/results.module.css";
-
-const imageMapping = {
-  "0": "./images/ada.jpg",
-  "1": "./images/annie.jpg",
-  "2": "./images/brenda.jpg",
-  "3": "./images/grace.jpg",
-  "4": "./images/mary.jpg",
-  "5": "./images/stallman.jpg"
-};
-
-const nameMapping = {
-  "0": "Ada Lovelace",
-  "1": "Annie Easley",
-  "2": "Brenda Laurel",
-  "3": "Grace Hopper",
-  "4": "Mary Kenneth Keller",
-  "5": "Richard Stallman"
-};
+import { nameMapping, imageMapping } from "@/data/mappings";
 
 const AgainButton = () => {
   const router = useRouter();

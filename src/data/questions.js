@@ -1,4 +1,4 @@
-const questionData = [
+export const questionData = [
   {
     question: "O que gostaria de fazer nas horas vagas?",
     options: [
@@ -145,5 +145,3 @@ const questionData = [
     ],
   },
 ];
-
-export default questionData;
