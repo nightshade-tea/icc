@@ -1,5 +1,5 @@
 import Question from "@/components/Question";
-import styles from "@/styles/index.module.css";
+import styles from "@/styles/page.module.css";
 
 export function generateStaticParams() {
   return Array.from({ length: 10 }, (_, i) => ({
@@ -7,7 +7,7 @@ export function generateStaticParams() {
   }));
 }
 
-export default function QuestionPage({params}) {
+export default function QuestionPage({ params }) {
   const id = Number(params.id);
 
   if (!Number.isInteger(id) || id < 1 || id > 10) {
@@ -17,7 +17,7 @@ export default function QuestionPage({params}) {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-          <Question id={id} />
+        <Question id={id} />
       </div>
     </main>
   );

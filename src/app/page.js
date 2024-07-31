@@ -1,4 +1,4 @@
-import styles from "@/styles/index.module.css";
+import styles from "@/styles/page.module.css";
 
 export default function Index() {
   return (

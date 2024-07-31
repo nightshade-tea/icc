@@ -1,7 +1,7 @@
 'use client'
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import styles from "@/styles/resultbox.module.css";
+import styles from "@/styles/results.module.css";
 
 const PlayAgain = () => {
   const router = useRouter();
@@ -20,7 +20,7 @@ const PlayAgain = () => {
   );
 }
 
-export default function ResultBox() {
+export default function Results() {
   const [answers, setAnswers] = useState([]);
 
   useEffect(() => {
@@ -30,14 +30,14 @@ export default function ResultBox() {
     }
     setAnswers(storedAnswers);
   }, []);
-  
+
   return (
     <div className={styles.box}>
       <h2>Resultado:</h2>
       <pre className={styles.code}>
-      {JSON.stringify(answers, null, 2)}
+        {JSON.stringify(answers, null, 2)}
       </pre>
-      <PlayAgain/>
+      <PlayAgain />
     </div>
   );
 }
