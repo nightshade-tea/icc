@@ -67,47 +67,47 @@ const questionData = [
       ]
   },
   {
-    question: "",
+    question: "Qual o seu chá favorito?",
     options:
       [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Camomila",
+        "Chá verde",
+        "Chá de hortelã",
+        "Chá preto",
+        "Chá de erva-doce"
       ]
   },
   {
-    question: "",
+    question: "Que tipo de música você mais gosta?",
     options:
       [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Pop",
+        "Eletrônica",
+        "Jazz",
+        "Clássica",
+        "Gospel"
       ]
   },
   {
-    question: "",
+    question: "Qual desses filmes você mais gosta?",
     options:
       [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "O Jogo da Imitação",
+        "Estrelas Além do Tempo",
+        "Ready Player One",
+        "A Rede Social",
+        "A Teoria de Tudo"
       ]
   },
   {
-    question: "",
+    question: "Qual é a sua cor favorita?",
     options:
       [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Azul",
+        "Verde",
+        "Amarelo",
+        "Preto",
+        "Branco"
       ]
   }
 ];
