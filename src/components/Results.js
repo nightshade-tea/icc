@@ -59,7 +59,7 @@ function computeResults(answers) {
     "2": 0,
     "3": 0,
     "4": 0,
-    "5": 0
+    "5": 1
   };
 
   answers.forEach((answer) => {
