@@ -3,6 +3,8 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import styles from "@/styles/results.module.css";
 
+/* rn answers are in order, but we can make a mapping later and randomize their order */
+
 const PlayAgain = () => {
   const router = useRouter();
 
@@ -26,7 +28,8 @@ export default function Results() {
   useEffect(() => {
     const storedAnswers = [];
     for (let i = 1; i <= 10; i++) {
-      storedAnswers.push(localStorage.getItem(`question${i}`));
+      const optionId = localStorage.getItem(`question${i}`);
+      storedAnswers.push(parseInt(optionId));
     }
     setAnswers(storedAnswers);
   }, []);

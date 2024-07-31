@@ -36,19 +36,19 @@ export default function Question({ id }) {
       {options.map((option, index) => (
         <div
           key={index}
-          className={`${styles.radio} ${selectedOption === `option${index}` ? styles.checked : ''}`}
-          onClick={() => handleDivClick(`option${index}`)}
+          className={`${styles.radio} ${selectedOption === index ? styles.checked : ''}`}
+          onClick={() => handleDivClick(index)}
         >
           <input
             type="radio"
-            id={`option${index}`}
+            id={index}
             name="quiz"
             value={option}
-            checked={selectedOption === `option${index}`}
+            checked={selectedOption === index}
             onChange={handleOptionChange}
             onClick={(e) => e.stopPropagation()}
           />
-          <label htmlFor={`option${index}`}>{option}</label>
+          <label htmlFor={index}>{option}</label>
         </div>
       ))}
       <button
