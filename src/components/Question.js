@@ -11,11 +11,12 @@ export default function Question({ id }) {
   const options = questionData[id - 1].options;
 
   const handleOptionChange = (event) => {
-    setSelectedOption(event.target.id);
+    const answer = options[event.target.id][1];
+    setSelectedOption(answer);
   };
 
-  const handleDivClick = (optionId) => {
-    setSelectedOption(optionId);
+  const handleDivClick = (answer) => {
+    setSelectedOption(answer);
   };
 
   const handleSubmit = () => {
@@ -36,19 +37,19 @@ export default function Question({ id }) {
       {options.map((option, index) => (
         <div
           key={index}
-          className={`${styles.radio} ${selectedOption === index ? styles.checked : ''}`}
-          onClick={() => handleDivClick(index)}
+          className={`${styles.radio} ${selectedOption === option[1] ? styles.checked : ''}`}
+          onClick={() => handleDivClick(option[1])}
         >
           <input
             type="radio"
             id={index}
             name="quiz"
-            value={option}
-            checked={selectedOption === index}
+            value={option[0]}
+            checked={selectedOption === option[1]}
             onChange={handleOptionChange}
             onClick={(e) => e.stopPropagation()}
           />
-          <label htmlFor={index}>{option}</label>
+          <label htmlFor={index}>{option[0]}</label>
         </div>
       ))}
       <button
