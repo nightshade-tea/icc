@@ -11,7 +11,7 @@ export default function Index() {
           <h2>
             Iniciar quiz <span>-&gt;</span>
           </h2>
-          <p>lalala lelele descrição</p>
+          <p>Descubra qual computeira você é</p>
         </a>
       </div>
     </main>
