@@ -1,17 +1,31 @@
 'use client'
 import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { questionData } from "@/data/questions";
 import styles from '@/styles/question.module.css';
 
 export default function Question({ id }) {
   const [selectedOption, setSelectedOption] = useState(null);
+  const [shuffledOptions, setShuffledOptions] = useState([]);
   const router = useRouter();
   const question = questionData[id - 1].question;
   const options = questionData[id - 1].options;
 
+  useEffect(() => {
+    setShuffledOptions(shuffleArray(options));
+  }, [options]);
+
+  const shuffleArray = (array) => {
+    let shuffledArray = array.slice();
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
+  };
+
   const handleOptionChange = (event) => {
-    const answer = options[event.target.id][1];
+    const answer = shuffledOptions[event.target.id][1];
     setSelectedOption(answer);
   };
 
@@ -34,7 +48,7 @@ export default function Question({ id }) {
   return (
     <div className={styles.question}>
       <h2>{question}</h2>
-      {options.map((option, index) => (
+      {shuffledOptions.map((option, index) => (
         <div
           key={index}
           className={`${styles.radio} ${selectedOption === option[1] ? styles.checked : ''}`}
