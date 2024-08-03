@@ -5,7 +5,7 @@ export const questionData = [
       ["Pensar de maneira criativa e encontrar soluções inovadoras 🔍", "ada"],
       ["Resolver o problema de forma prática e direta 🔧", "annie"],
       ["Explorar novas abordagens e criar experiências envolventes 🎨", "brenda"],
-      ["Aplicar suas habilidades para encontrar soluções eficientes e eficazes 💡", "grace"],
+      ["Aplicar suas habilidades para encontrar soluções eficientes 💡", "grace"],
       ["Ensinar e inspirar os outros a dominar novas tecnologias 📚", "mary"],
     ],
   },

@@ -21,7 +21,7 @@ export default function Index() {
       <div>
         <p className={styles.text}>
           Preparado para descobrir qual mulher incrível da história da tecnologia você seria?<br/>
-          Desde Ada Lovelace, a primeira programadora, até as "computadoras" da NASA que levaram o homem à Lua, as mulheres têm revolucionado o mundo da computação.<br />
+          Desde Ada Lovelace, a primeira programadora, até as "computadoras" da NASA que levaram o homem à Lua, as mulheres têm revolucionado o mundo da computação.<br/>
           Vamos celebrar essas mentes brilhantes e ver com qual dessas pioneiras você mais se identifica! 💡🚀
         </p>
       </div>
