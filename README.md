@@ -22,7 +22,7 @@ Essas soluções devem nos ajudar a evoluir para uma sociedade democrática mais
 # Prototipação e descrição: Quiz Pioneiras da Computação
 ## Descrição Geral
 
-O "Quiz Pioneiras da Computação" é um jogo educacional digital desenvolvido com Next.js e hospedado no GitHub Pages. O objetivo do quiz é educar os usuários sobre importantes mulheres na história da computação e ajudar a identificar qual dessas pioneiras mais combina com eles. O quiz apresenta seis perguntas, e as respostas atribuídas determinam a pontuação associada a uma das cinco personalidades: Ada Lovelace, Annie Easley, Brenda Laurel, Grace Hopper e Mary Kenneth Keller.
+O "Quiz Pioneiras da Computação" é um jogo educacional digital desenvolvido com Next.js e hospedado no GitHub Pages. O objetivo do quiz é educar os usuários sobre importantes mulheres na história da computação e ajudar a identificar qual dessas pioneiras mais combina com eles. O quiz apresenta oito perguntas, e as respostas atribuídas determinam a pontuação associada a uma das cinco personalidades: Ada Lovelace, Annie Easley, Brenda Laurel, Grace Hopper e Mary Kenneth Keller.
 
 ## Funcionalidades do Protótipo
 
