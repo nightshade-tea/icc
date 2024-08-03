@@ -39,7 +39,6 @@ function computeResults(answers) {
     "brenda": 0,
     "grace": 0,
     "mary": 0,
-    "stallman": 1
   };
 
   answers.forEach((answer) => {
