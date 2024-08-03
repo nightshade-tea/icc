@@ -83,11 +83,10 @@ export default function Results() {
       <img
         src={image}
         alt={name}
-        width={300}
       />
-      <p>{desc[0]}</p>
-      <p>{desc[1]}</p>
-      <p>{desc[2]}</p>
+      <p><strong>{desc[0]}</strong><br/></p>
+      <p>{desc[1]}<br/></p>
+      <p>{desc[2]}<br/></p>
       <AgainButton />
     </div>
   );

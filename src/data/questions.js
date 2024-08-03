@@ -2,7 +2,7 @@ export const questionData = [
   {
     question: "Quando você enfrenta um desafio, você tende a:",
     options: [
-      ["Pensar de maneira criativa e encontrar soluções inovadoras", "ada"],
+      ["Pensar de maneira criativa e encontrar soluções inovadoras 🔍", "ada"],
       ["Resolver o problema de forma prática e direta 🔧", "annie"],
       ["Explorar novas abordagens e criar experiências envolventes 🎨", "brenda"],
       ["Aplicar suas habilidades para encontrar soluções eficientes e eficazes 💡", "grace"],
@@ -12,7 +12,7 @@ export const questionData = [
   {
     question: "Como você prefere trabalhar em equipe?",
     options: [
-      ["Como um(a) visionário(a), oferecendo novas ideias e perspectivas", "ada"],
+      ["Como um(a) visionário(a), oferecendo novas ideias e perspectivas 🌟", "ada"],
       ["Como um(a) solucionador(a) de problemas, focado(a) em resultados práticos 🛠️", "annie"],
       ["Como um(a) colaborador(a) criativo(a), integrando diferentes pontos de vista 🤝", "brenda"],
       ["Como um(a) especialista, aplicando seu conhecimento para resolver questões complexas 🔍", "grace"],
@@ -52,20 +52,20 @@ export const questionData = [
   {
     question: "O que gostaria de fazer nas horas vagas?",
     options: [
-      ["Apostar em corridas de cavalo", "ada"],
-      ["Esquiar", "annie"],
-      ["Mergulhar", "brenda"],
-      ["Tentar descobrir como meu despertador funciona", "grace"],
-      ["Vou à missa", "mary"],
+      ["Apostar em corridas de cavalo 🏇", "ada"],
+      ["Esquiar ⛷️", "annie"],
+      ["Mergulhar 🤿", "brenda"],
+      ["Tentar descobrir como meu despertador funciona ⏰", "grace"],
+      ["Vou à missa ⛪", "mary"],
     ],
   },
   {
     question: "Se fosse para você escolher uma segunda faculdade, qual seria?",
     options: [
-      ["Matemática", "ada,grace"],
-      ["Farmácia", "annie"],
-      ["Artes", "brenda"],
-      ["Teologia", "mary"],
+      ["Matemática 📊", "ada,grace"],
+      ["Farmácia 💊", "annie"],
+      ["Artes 🎨", "brenda"],
+      ["Teologia ⛪", "mary"],
     ],
   },
   {
