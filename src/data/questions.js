@@ -16,7 +16,7 @@ export const questionData = [
       ["Como um(a) solucionador(a) de problemas, focado(a) em resultados práticos 🛠️", "annie"],
       ["Como um(a) colaborador(a) criativo(a), integrando diferentes pontos de vista 🤝", "brenda"],
       ["Como um(a) especialista, aplicando seu conhecimento para resolver questões complexas 🔍", "grace"],
-      ["Como um(a) mentor(a), ajudando a educar e inspirar os outros 🌟", "mary"],
+      ["Como um(a) mentor(a), ajudando a educar e inspirar os outros 👩‍🏫", "mary"],
     ],
   },
   {
@@ -34,7 +34,7 @@ export const questionData = [
     options: [
       ["Matemática e algoritmos 📊", "ada"],
       ["Tecnologia espacial e desenvolvimento prático 🚀", "annie"],
-      ["Design e interação humana com a tecnologia 🖥️", "brenda"],
+      ["Design e interação humana com a tecnologia 🎨", "brenda"],
       ["Programação e inovação em software 🖥️", "grace"],
       ["Educação e acessibilidade na tecnologia 🎓", "mary"],
     ],
