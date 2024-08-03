@@ -4,7 +4,6 @@ export const imageMapping = {
   "brenda": "./images/brenda.jpg",
   "grace": "./images/grace.jpg",
   "mary": "./images/mary.jpg",
-  "stallman": "./images/stallman.jpg"
 };
 
 export const nameMapping = {
@@ -13,5 +12,4 @@ export const nameMapping = {
   "brenda": "Brenda Laurel",
   "grace": "Grace Hopper",
   "mary": "Mary Kenneth Keller",
-  "stallman": "Richard Stallman"
 };
