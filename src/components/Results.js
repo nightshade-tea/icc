@@ -8,7 +8,7 @@ const AgainButton = () => {
   const router = useRouter();
 
   const handleClick = () => {
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 8; i++) {
       localStorage.removeItem(`question${i}`);
     }
     router.push("/");
@@ -24,7 +24,7 @@ const AgainButton = () => {
 function getAnswers() {
   const storedAnswers = [];
 
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 8; i++) {
     const optionId = localStorage.getItem(`question${i}`);
     storedAnswers.push(optionId);
   }
@@ -42,7 +42,13 @@ function computeResults(answers) {
   };
 
   answers.forEach((answer) => {
-    count[answer]++;
+    if (answer) {
+      for (let key in count) {
+        if (answer.includes(key)) {
+          count[key]++;
+        }
+      }
+    }
   });
 
   let maxOccurrences = 0;
