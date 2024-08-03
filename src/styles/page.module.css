@@ -8,9 +8,9 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 8rem);
   overflow-y: scroll;
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
 .description {
