@@ -1,45 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Objetivos do Desenvolvimento Sustentável 
+Em 2015, a Organização das Nações Unidas (ONU) propôs 17 Objetivos de Desenvolvimento Sustentável (ODS) como uma chamada universal à ação para acabar com a pobreza, reduzir desigualdades, proteger o planeta e melhorar a vida de todas as pessoas, em todos os lugares.
 
-## Getting Started
-### How to contribute
-1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repo
-2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your (forked) repo
-3. [Generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [add it to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) (optional)
-4. Learn [git basics](https://docs.github.com/en/get-started/using-git)
-5. After making changes to your fork, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to this repo.
+Os 17 objetivos estão todos interligados, abordando os desafios globais que a sociedade enfrenta, incluindo aqueles relacionados à pobreza, saúde, desigualdade, mudança climática, degradação ambiental, paz e justiça, educação e infraestrutura. A Computação é um dos pilares essenciais para apoiar todo e qualquer avanço no alcance desses objetivos!
 
-### Requirements
-1. Install [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating):
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
-```
-2. Install Node.js:
-```bash
-nvm install node
-```
-3. Install dependencies:
-> [!IMPORTANT]  
-> ***"yarn ..."*** commands should be executed inside the project's root directory.
-```bash
-yarn install
-```
+Durante a sua experiência com o Caso do Vestível Controlador, você e as demais pessoas da equipe identificaram diversas questões que resultaram em problemas graves e afetaram o projeto do dispositivo, dentre elas as questões de gênero. Se uma maior diversidade de profissionais, incluindo mais mulheres, tivesse participado do projeto, com poder efetivo de atuação e decisão, você sabe que talvez o desfecho pudesse ter sido bem diferente.
 
-### Running the development server
-```bash
-yarn dev
-```
+Por isso, agora, na Fase 12, você e sua equipe estão recebendo a convocação da Liga para investigar problemas no caso que estão relacionados ao Objetivo 5 da ONU: Igualdade de Gênero, com atenção para a meta 5.b.: “Aumentar o uso de tecnologias de base, em particular as tecnologias de informação e comunicação, para promover o empoderamento das mulheres.”
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Há várias dimensões dentro deste objetivo, desde a educação e inserção das mulheres no mercado de trabalho (inclusive no mercado de tecnologia), até a erradicação da discriminação e violência. Estando dentro do tema do ODS #5, a equipe tem total liberdade criativa para o problema que pretende abordar e para o jogo que pretender propor. 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+O propósito da equipe é entender os problemas da sociedade e propor um jogo educacional digital (ou híbrido, com recursos físicos e digitais) que apoie o alcance do ODS #5. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Atividades da Fase 12
 
-## Learn More
+Utilizando o contexto do ODS #5 da ONU, em todas as suas dimensões, o desafio desta fase é pensar em soluções computacionais na forma de um jogo digital (podendo ser híbrido com recursos físicos) que ajude a avançar no alcance deste objetivo, especialmente em relação à meta 5.b.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Essas soluções devem nos ajudar a evoluir para uma sociedade democrática mais justa e igualitária, reduzindo preconceitos, exclusões, opressões, desigualdades, etc., abrindo a mente e conscientizando mais pessoas.
