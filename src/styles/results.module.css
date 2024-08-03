@@ -18,7 +18,7 @@
 
 .box img {
   margin: 1rem 0;
-  width: 75vh;
+  max-width: 100%;
 }
 
 .box p {
@@ -26,7 +26,13 @@
   opacity: 0.6;
   font-size: 0.9rem;
   line-height: 1.5;
-  max-width: 75vh;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .box {
+    max-width: 50%;
+  }
 }
 
 .box br {
