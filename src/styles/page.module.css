@@ -10,7 +10,13 @@
   align-items: center;
   min-height: 100vh;
   overflow-y: scroll;
-  padding: 3rem;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 3px;
+  }
 }
 
 .description {
