@@ -33,6 +33,9 @@
   .box {
     max-width: 50%;
   }
+  .box p {
+    font-size: 1rem;
+  }
 }
 
 .box br {
