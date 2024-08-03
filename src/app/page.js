@@ -6,13 +6,6 @@ export default function Index() {
       <h1 className={styles.title}>
         Qual pioneira da computação mais combina com você?
       </h1>
-      <div>
-        <p className={styles.text}>
-          Preparado para descobrir qual mulher incrível da história da tecnologia você seria?<br/>
-          Desde Ada Lovelace, a primeira programadora, até as "computadoras" da NASA que levaram o homem à Lua, as mulheres têm revolucionado o mundo da computação.<br />
-          Vamos celebrar essas mentes brilhantes e ver com qual dessas pioneiras você mais se identifica! 💡🚀
-        </p>
-      </div>
       <div className={styles.grid}>
        <a
           href="./question/1"
@@ -24,6 +17,13 @@ export default function Index() {
 
           <p>Pronto para começar? Vamos lá! 🎉🖥️</p>
         </a>
+      </div>
+      <div>
+        <p className={styles.text}>
+          Preparado para descobrir qual mulher incrível da história da tecnologia você seria?<br/>
+          Desde Ada Lovelace, a primeira programadora, até as "computadoras" da NASA que levaram o homem à Lua, as mulheres têm revolucionado o mundo da computação.<br />
+          Vamos celebrar essas mentes brilhantes e ver com qual dessas pioneiras você mais se identifica! 💡🚀
+        </p>
       </div>
    </main>
   );
