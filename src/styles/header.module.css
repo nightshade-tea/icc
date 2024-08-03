@@ -4,31 +4,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   z-index: 1000;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(169, 169, 169, 0.2));
+  backdrop-filter: blur(10px); 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
+.header {
   width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
 }
