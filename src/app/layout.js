@@ -4,8 +4,8 @@ import "@/styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Quiz",
-  description: "Quiz description",
+  title: "Quiz pioneiras da computação",
+  description: "Descubra qual pioneira da computação mais combina com você!",
 };
 
 export default function RootLayout({ children }) {
