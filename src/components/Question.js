@@ -37,7 +37,7 @@ export default function Question({ id }) {
     if (typeof window !== 'undefined') {
       localStorage.setItem(`question${id}`, selectedOption);
 
-      if (id === 10) {
+      if (id === 8) {
         router.push(`/results`);
       } else {
         router.push(`/question/${id + 1}`);
