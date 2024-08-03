@@ -62,10 +62,9 @@ export const questionData = [
   {
     question: "Se fosse para você escolher uma segunda faculdade, qual seria?",
     options: [
-      ["Matemática", "ada"],
+      ["Matemática", "ada,grace"],
       ["Farmácia", "annie"],
       ["Artes", "brenda"],
-      ["Matemática", "grace"],
       ["Teologia", "mary"],
     ],
   },
