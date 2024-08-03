@@ -6,6 +6,7 @@
   background: rgba(var(--card-rgb), 0.05);
   border: 1px solid rgba(var(--card-border-rgb), 0.15);
   box-sizing: border-box;
+  max-width: 38rem;
 }
 
 .question h2 {
