@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import styles from "@/styles/results.module.css";
-import { nameMapping, imageMapping } from "@/data/mappings";
+import { nameMapping, imageMapping, descMapping } from "@/data/mappings";
 
 const AgainButton = () => {
   const router = useRouter();
@@ -73,18 +73,21 @@ export default function Results() {
   }, []);
 
   const result = computeResults(answers);
-  const name = nameMapping[result];
-  const image = imageMapping[result];
+  const name = nameMapping[result] || '';
+  const image = imageMapping[result] || '';
+  const desc = descMapping[result] || ['', '', ''];
 
   return (
     <div className={styles.box}>
-      <h2>Resultado:</h2>
-      <p>{name}</p>
+      <h2>{name}</h2>
       <img
         src={image}
         alt={name}
         width={300}
       />
+      <p>{desc[0]}</p>
+      <p>{desc[1]}</p>
+      <p>{desc[2]}</p>
       <AgainButton />
     </div>
   );
