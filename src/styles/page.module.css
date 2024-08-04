@@ -31,6 +31,8 @@
 }
 
 .text br {
+  content: "";
+  display: block;
   margin-bottom: 0.625rem;
 }
 
