@@ -53,4 +53,4 @@ O "Quiz Pioneiras da Computação" é um jogo educacional digital desenvolvido c
 ## Links Importantes
 
 - [**Protótipo Online**](https://nightshade-tea.github.io/icc/)
-- [**Código Fonte**](https://github.com/nightshade-tea/icc)
+- [**Código-fonte**](https://github.com/nightshade-tea/icc)
