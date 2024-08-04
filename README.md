@@ -50,7 +50,3 @@ O "Quiz Pioneiras da Computação" é um jogo educacional digital desenvolvido c
 - **Código Aberto**: O código está disponível no GitHub sob a licença GPL-3. O software livre promove a transparência e a possibilidade de melhorias contínuas, além de encorajar a colaboração e a inovação na comunidade de desenvolvedores.
 - **Segurança e Privacidade**: O quiz não coleta nem armazena dados pessoais dos usuários, garantindo uma experiência completamente anônima e protegida. Isso simplifica a segurança e garante a privacidade total dos participantes.
 
-## Links Importantes
-
-- [**Protótipo Online**](https://nightshade-tea.github.io/icc/)
-- [**Código-fonte**](https://github.com/nightshade-tea/icc)
