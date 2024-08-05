@@ -30,7 +30,6 @@ export default function Index() {
       <footer className={styles.footer}>
         <p><a href="https://github.com/nightshade-tea/icc">Código-fonte</a></p>
         <p>Esta página é software livre, licenciada sob a <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a></p>
-        <p>UFPR, Departamento de Informática</p>
       </footer>
    </main>
   );
