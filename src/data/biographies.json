@@ -1,0 +1,51 @@
+{
+  "ada": {
+    "name": "Ada Lovelace",
+    "image": "./images/ada.jpg",
+    "description": [
+      "🌟 Parabéns! Você se parece com Ada Lovelace! ✨",
+      "Assim como Ada, você é um(a) visionário(a) da matemática e da lógica, sempre pensando em como a tecnologia pode ser usada de formas novas e inovadoras.",
+      "Ada Lovelace desempenhou um papel fundamental na história da tecnologia como a primeira programadora do mundo. No século XIX, ao trabalhar com a Máquina Analítica de Charles Babbage, ela escreveu o primeiro algoritmo destinado a ser processado por uma máquina, antecipando o conceito de programação de computadores. Sua visão sobre o potencial das máquinas de calcular para realizar tarefas complexas e diversas lançou as bases para a computação moderna, solidificando seu lugar como uma das pioneiras mais influentes na tecnologia."
+    ]
+  },
+
+  "annie": {
+    "name": "Annie Easley",
+    "image": "./images/annie.jpg",
+    "description": [
+      "Você tem um pouco da magia de Annie Easley!🚀💡",
+      "Assim como ela, você é um(a) solucionador(a) de problemas prático e determinado(a), com uma paixão pela tecnologia e pela exploração espacial.",
+      "Annie Easley foi uma pioneira na computação e na exploração espacial. Trabalhando na NASA, ela desenvolveu algoritmos vitais para calcular trajetórias de naves espaciais, contribuindo para o sucesso de missões como as do programa Apollo. Além de suas realizações técnicas, Easley foi uma defensora da inclusão e diversidade, abrindo portas para mulheres e minorias na ciência e engenharia. Seu legado é um exemplo inspirador de inovação e igualdade, demonstrando que o talento não tem barreiras."
+    ]
+  },
+
+  "brenda": {
+    "name": "Brenda Laurel",
+    "image": "./images/brenda.jpg",
+    "description": [
+      "Você tem um pouco da magia de Brenda Laurel!! 🚀 🌟",
+      "Assim como Laurel, você tem uma abordagem criativa e centrada no usuário, sempre buscando melhorar a forma como as pessoas interagem com a tecnologia.",
+      "Brenda Laurel é uma figura essencial na história da computação e do design de interação. Como uma pioneira no campo da interação humano-computador, ela ajudou a moldar a forma como entendemos e projetamos experiências digitais. Seus trabalhos inovadores no design de interfaces e em ambientes virtuais, como o \"virtual reality\" e o \"cyberformance,\" foram fundamentais para tornar a tecnologia mais acessível e envolvente. Laurel também foi uma das primeiras a explorar como a narrativa e o design podem se unir para criar experiências imersivas e significativas. Seu impacto continua a inspirar o desenvolvimento de tecnologias que colocam o usuário no centro da experiência digital."
+    ]
+  },
+
+  "grace": {
+    "name": "Grace Hopper",
+    "image": "./images/grace.jpg",
+    "description": [
+      "Parabéns! Você tem a mesma eficiência e inovação de Grace Hopper! 🖥️💫",
+      "Assim como Grace, Você é um(a) especialista em programação e desenvolvimento, com uma abordagem eficiente e orientada para a solução de problemas complexos.",
+      "Grace Hopper foi uma figura monumental na história da computação. Conhecida como a \"mãe da programação\", ela desenvolveu o primeiro compilador, uma ferramenta essencial que traduziu código de programação para linguagem de máquina, facilitando o desenvolvimento de software. Além disso, Hopper popularizou a ideia de linguagens de programação de alto nível e foi uma pioneira na criação da COBOL, uma das primeiras linguagens de programação usadas em negócios e administração. Seu trabalho revolucionou a forma como programamos e desenvolvemos software, e seu legado continua a impactar a tecnologia moderna."
+    ]
+  },
+
+  "mary": {
+    "name": "Mary Kenneth Keller",
+    "image": "./images/mary.jpg",
+    "description": [
+      "Parabéns! Você tem o espírito inovador e a paixão pela educação de Mary Kenneth Keller! 📚💻",
+      "Assim como Mary, você é um(a) educador(a) apaixonado(a) pela tecnologia, sempre buscando tornar o conhecimento acessível e inspirar a próxima geração.",
+      "Mary Kenneth Keller foi uma pioneira essencial na história da computação, especialmente no campo da educação tecnológica. Ela foi uma das primeiras mulheres a obter um doutorado em ciência da computação e dedicou sua carreira a tornar a tecnologia acessível e compreensível. Keller também ajudou a desenvolver o BASIC, uma linguagem de programação que facilitou a aprendizagem para iniciantes. Seu trabalho inovador e sua paixão pelo ensino ajudaram a abrir portas para futuras gerações de programadores e educadores, solidificando seu papel como uma defensora da inclusão na tecnologia."
+    ]
+  }
+}

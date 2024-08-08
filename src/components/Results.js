@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import styles from "@/styles/results.module.css";
-import { nameMapping, imageMapping, descMapping } from "@/data/mappings";
+import biographies from "@/data/biographies.json";
 
 const AgainButton = () => {
   const router = useRouter();
@@ -73,9 +73,9 @@ export default function Results() {
   }, []);
 
   const result = computeResults(answers);
-  const name = nameMapping[result] || '';
-  const image = imageMapping[result] || '';
-  const desc = descMapping[result] || ['', '', ''];
+  const name = biographies[result]?.name || '';
+  const image = biographies[result]?.image || '';
+  const desc = biographies[result]?.description || ['', '', ''];
 
   return (
     <div className={styles.box}>
