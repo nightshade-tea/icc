@@ -1,15 +1,15 @@
 'use client'
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { questionData } from "@/data/questions";
+import questions from "@/data/questions.json";
 import styles from '@/styles/question.module.css';
 
 export default function Question({ id }) {
   const [selectedOption, setSelectedOption] = useState(null);
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const router = useRouter();
-  const question = questionData[id - 1].question;
-  const options = questionData[id - 1].options;
+  const question = questions[id - 1].question;
+  const options = questions[id - 1].options;
 
   useEffect(() => {
     setShuffledOptions(shuffleArray(options));
